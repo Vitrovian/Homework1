@@ -5,24 +5,45 @@ body{
 h1{
     letter-spacing: 1px;
     font-size: 4em;
-    font-family:bold;
     color:burlywood ;
     text-align: center;
+    font-style: revert; 
+    font-weight: 600;
     
 }
-.text1{
-    text-align: center;
+.phone{
+    margin:  50px 40px 50px 70px;
+   
+    p{
+        text-align: center;
     font-size: 26px;
     font-weight: bold;
-    padding-bottom: 5%;
+    img{
+        width: 40px;
+        height: 40px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }     
 }
-.girl{
-    margin:  0px  290px;
-    width: 250px;
-    height: 250px; 
-    border-radius: 50%; 
-    background: url(/Internet_technologies/Homework1/src/images/bp.jpeg) repeat  10px -40px; 
-    background-size: auto 340px; 
-
+}
+.block_girl{
+    .va{
+        color:burlywood ;
+        margin-left: 590px;
+        margin-bottom: 30px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    p{
+        font-size: 18px;
+        text-align-last: center;
+        img{
+            margin-left: 260px;
+            width: 350px;
+            height: 350px;
+            border-radius: 50%;
+        }
     
+    }
 }
